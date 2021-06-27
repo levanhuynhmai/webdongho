@@ -1,0 +1,248 @@
+.page-login #login .title-head, .page-login #customer-reset-password .title-head, .page-login #recover-password .title-head {
+  font-size: 26px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.4px; }
+  @media (max-width: 767px) {
+    .page-login #login .title-head, .page-login #customer-reset-password .title-head, .page-login #recover-password .title-head {
+      font-size: 22px; } }
+
+.page-login #login .btn-blues, .page-login #customer-reset-password .btn-blues, .page-login #recover-password .btn-blues {
+  min-width: 290px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 13px; }
+  @media (max-width: 480px) {
+    .page-login #login .btn-blues, .page-login #customer-reset-password .btn-blues, .page-login #recover-password .btn-blues {
+      width: 100%; } }
+
+.page-login .form-group {
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .page-login .form-group {
+      margin-bottom: 5px; } }
+  .page-login .form-group label {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center; }
+
+.page-login input[type="text"], .page-login input[type="email"], .page-login input[type="number"], .page-login input[type="tel"], .page-login input[type="password"], .page-login select.form-control {
+  background: #f7f7f7;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: none; }
+
+.page-login .btn-link-style {
+  margin-top: 15px;
+  color: #916841;
+  display: block;
+  font-weight: 500; }
+  .page-login .btn-link-style.btn-register {
+    display: inline-block; }
+  .page-login .btn-link-style:hover, .page-login .btn-link-style:focus {
+    color: #1c1c1c; }
+
+.page-login .text-login p {
+  margin-bottom: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px; }
+  .page-login .text-login p a {
+    color: #916841; }
+    .page-login .text-login p a:hover, .page-login .text-login p a:focus {
+      color: #1c1c1c; }
+
+.fix-sblock {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+.btn-register-login {
+  display: block;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  color: #916841;
+  margin-top: 10px; }
+  .btn-register-login:hover, .btn-register-login:focus {
+    color: #1c1c1c;
+    outline: none;
+    box-shadow: none; }
+
+.account-page h2 {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 500; }
+
+.account-page h1.title-head {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  @media (max-width: 480px) {
+    .account-page h1.title-head {
+      font-size: 20px; } }
+
+.account-page h2.title-head {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400; }
+  @media (max-width: 480px) {
+    .account-page h2.title-head {
+      font-size: 15px; } }
+
+.my-account .recent-orders .table > thead > tr > th {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1c1c1c; }
+
+.my-account .recent-orders .table > tbody > tr > td {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1c1c1c; }
+  .my-account .recent-orders .table > tbody > tr > td a {
+    color: #916841; }
+    .my-account .recent-orders .table > tbody > tr > td a:hover, .my-account .recent-orders .table > tbody > tr > td a:focus {
+      color: #1c1c1c; }
+
+.block-account .block-content p {
+  font-size: 13px;
+  color: #333;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px; }
+
+.block-account .block-content .btn-blues {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 38px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 12px; }
+
+.btn-edit-addr {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 12px; }
+  @media (max-width: 480px) {
+    .btn-edit-addr {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.evo-btn-back {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 38px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 12px; }
+  @media (max-width: 480px) {
+    .evo-btn-back {
+      width: 100%; } }
+
+#order_payment .address p, #order_shipping .address p {
+  display: table;
+  margin-bottom: 10px; }
+  #order_payment .address p i, #order_shipping .address p i {
+    display: table-cell;
+    width: 20px; }
+  #order_payment .address p a, #order_shipping .address p a {
+    color: #916841; }
+    #order_payment .address p a:hover, #order_payment .address p a:focus, #order_shipping .address p a:hover, #order_shipping .address p a:focus {
+      color: #1c1c1c; }
+
+#order_details .thead-default {
+  border-top: 1px solid #ddd; }
+
+#order_details .order_details_name_products a {
+  font-weight: 500; }
+
+#order_details.table > thead > tr > th {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1c1c1c; }
+
+#order_details.table > tbody > tr > td {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1c1c1c; }
+  #order_details.table > tbody > tr > td a {
+    color: #916841; }
+    #order_details.table > tbody > tr > td a:hover, #order_details.table > tbody > tr > td a:focus {
+      color: #1c1c1c; }
+
+.address_info p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #1c1c1c;
+  letter-spacing: 0.5px; }
+  .address_info p strong {
+    font-weight: 500; }
+
+#add_address .btn-blues, .evo-edit-address .btn-blues {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 12px; }
+
+#add_address .form-group, .evo-edit-address .form-group {
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    #add_address .form-group, .evo-edit-address .form-group {
+      margin-bottom: 5px; } }
+  #add_address .form-group label, .evo-edit-address .form-group label {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center; }
+
+#add_address input[type="text"], #add_address input[type="email"], #add_address input[type="number"], #add_address input[type="tel"], #add_address input[type="password"], #add_address select.form-control, .evo-edit-address input[type="text"], .evo-edit-address input[type="email"], .evo-edit-address input[type="number"], .evo-edit-address input[type="tel"], .evo-edit-address input[type="password"], .evo-edit-address select.form-control {
+  background: #f7f7f7 !important;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: none; }
+
+#add_address .checkbox .c-checkbox, .evo-edit-address .checkbox .c-checkbox {
+  position: relative; }
+
+@media (max-width: 480px) {
+  .evo-fix-button {
+    width: 100%; }
+    .evo-fix-button + .evo-fix-button {
+      margin-top: 10px; } }
+
+.social-login a {
+  display: inline-block; }
+  .social-login a.social-login--google {
+    margin-left: 10px; }
+  .social-login a:hover, .social-login a:focus {
+    opacity: 0.8; }

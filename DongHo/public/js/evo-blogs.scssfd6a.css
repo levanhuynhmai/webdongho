@@ -1,0 +1,201 @@
+.line-clamp {
+  position: relative;
+  height: 43px;
+  /* exactly three lines */
+  overflow: hidden;
+  display: block; }
+
+.line-clamp:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 22px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%); }
+
+@supports (-webkit-line-clamp: 2) {
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 43px;
+    /* I needed this to get it to work */
+    height: auto;
+    min-height: 43px; }
+  .line-clamp:after {
+    display: none; } }
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+
+.animated-background, .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image.lazyload {
+  animation-duration: 1.25s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #F6F6F6;
+  background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+  background-size: 700px 104px;
+  position: relative; }
+
+.evo-blog-header {
+  background: url(evo-blog-banner7e0b.jpg?v=148) no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .evo-blog-header .evo-blog-header-content {
+    min-height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 40px;
+    flex-flow: column;
+    text-align: center; }
+    @media (max-width: 767px) {
+      .evo-blog-header .evo-blog-header-content {
+        padding: 20px 0 40px; } }
+    .evo-blog-header .evo-blog-header-content h1 {
+      font-size: 26px;
+      line-height: 28px;
+      margin: 0;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+      color: #fff; }
+    .evo-blog-header .evo-blog-header-content .evo-blog-des {
+      font-size: 14px;
+      line-height: 24px;
+      color: #fff;
+      letter-spacing: 0.5px;
+      margin-top: 10px; }
+      .evo-blog-header .evo-blog-header-content .evo-blog-des p {
+        margin-bottom: 0; }
+
+.evo-blog-nav {
+  border-bottom: 1px solid #f5f5f5; }
+  @media (max-width: 767px) {
+    .evo-blog-nav {
+      position: relative;
+      overflow: hidden; } }
+  .evo-blog-nav .nav-blog {
+    display: flex; }
+    @media (min-width: 768px) {
+      .evo-blog-nav .nav-blog {
+        justify-content: center;
+        align-items: center; } }
+    @media (max-width: 767px) {
+      .evo-blog-nav .nav-blog {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; } }
+    .evo-blog-nav .nav-blog a {
+      padding: 20px 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      display: block;
+      font-size: 12px;
+      position: relative;
+      color: #1c1c1c; }
+      .evo-blog-nav .nav-blog a + a {
+        border-left: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a:first-child {
+        border-left: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a:last-child {
+        border-right: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a.active, .evo-blog-nav .nav-blog a:hover, .evo-blog-nav .nav-blog a:focus {
+        color: #916841; }
+        .evo-blog-nav .nav-blog a.active:after, .evo-blog-nav .nav-blog a:hover:after, .evo-blog-nav .nav-blog a:focus:after {
+          content: '';
+          width: 100%;
+          height: 1px;
+          background: #916841;
+          display: block;
+          position: absolute;
+          bottom: -1px;
+          left: 0; }
+      @media (max-width: 767px) {
+        .evo-blog-nav .nav-blog a {
+          min-width: 70px;
+          text-align: center;
+          -webkit-flex-shrink: 0;
+          -ms-flex: 0 0 auto;
+          flex-shrink: 0;
+          position: relative; } }
+
+.evo-list-blog-page {
+  margin-top: 20px; }
+  .evo-list-blog-page .evo-list-blogs .blog-item {
+    margin-bottom: 15px; }
+    @media (max-width: 767px) {
+      .evo-list-blog-page .evo-list-blogs .blog-item {
+        margin-bottom: 25px; } }
+    .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+      position: relative;
+      overflow: hidden;
+      height: 247px; }
+      @media (max-width: 1024px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 202px; } }
+      @media (max-width: 991px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 153px; } }
+      @media (max-width: 767px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 67px; } }
+      @media (max-width: 480px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 267px; } }
+      @media (max-width: 376px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 241px; } }
+      @media (max-width: 321px) {
+        .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image {
+          height: 204px; } }
+      .evo-list-blog-page .evo-list-blogs .blog-item a .evo-article-image img {
+        -webkit-transition: opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        width: auto;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+    .evo-list-blog-page .evo-list-blogs .blog-item a h3 {
+      color: #1c1c1c;
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.67;
+      margin-top: 10px;
+      margin-bottom: 0;
+      text-align: left; }
+    .evo-list-blog-page .evo-list-blogs .blog-item a p {
+      font-size: 13px;
+      line-height: 25px;
+      letter-spacing: 0.52px;
+      margin-bottom: 0;
+      color: #1c1c1c;
+      text-align: left; }
+    .evo-list-blog-page .evo-list-blogs .blog-item a:hover .evo-article-image img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+    .evo-list-blog-page .evo-list-blogs .blog-item a:hover h3 {
+      color: #916841; }
+    .evo-list-blog-page .evo-list-blogs .blog-item a:hover p {
+      color: #1c1c1c; }
+    @media (min-width: 768px) {
+      .evo-list-blog-page .evo-list-blogs .blog-item:nth-child(3n+1) {
+        clear: left; } }

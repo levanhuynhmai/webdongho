@@ -1,0 +1,92 @@
+.evo-blog-header {
+  background: url(../../../../file.hstatic.net/200000268089/file/evo-page-banner_b0c0529213c040cc95d98a9af8845e3d.jpg) no-repeat;
+  background-size: cover; }
+  @media (min-width: 767px) {
+    .evo-blog-header {
+      background-position: center; } }
+  .evo-blog-header .evo-blog-header-content {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center; }
+    @media (max-width: 767px) {
+      .evo-blog-header .evo-blog-header-content {
+        height: 180px; } }
+    .evo-blog-header .evo-blog-header-content h1 {
+      font-size: 26px;
+      line-height: 28px;
+      margin: 0;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+      color: #1c1c1c; }
+
+.page-contact .page-login .title-head {
+  font-size: 26px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.4px; }
+  @media (max-width: 767px) {
+    .page-contact .page-login .title-head {
+      font-size: 22px; } }
+
+.page-contact .page-login .text-contact {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+.page-contact .form-group {
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .page-contact .form-group {
+      margin-bottom: 5px; } }
+  .page-contact .form-group label {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center; }
+
+.page-contact input[type="text"], .page-contact input[type="email"], .page-contact input[type="number"], .page-contact input[type="tel"] {
+  background: #f7f7f7;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  outline: none; }
+
+.page-contact textarea.form-control {
+  background: #f7f7f7;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  outline: none;
+  resize: none; }
+
+.page-contact .btn-blues {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 13px; }
+
+.page-contact .contact-map {
+  border-top: 1px solid #f5f5f5;
+  padding-top: 30px;
+  margin-top: 30px; }
+
+.page-contact .box-maps {
+  height: 350px;
+  overflow: hidden;
+  margin-top: 30px; }
+  .page-contact .box-maps iframe {
+    height: 350px;
+    width: 100%; }

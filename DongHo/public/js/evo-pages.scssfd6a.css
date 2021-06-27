@@ -1,0 +1,127 @@
+.evo-blog-header {
+  background: url(../../../../file.hstatic.net/200000268089/file/evo-page-banner_b0c0529213c040cc95d98a9af8845e3d.jpg) no-repeat;
+  background-size: cover; }
+  @media (min-width: 767px) {
+    .evo-blog-header {
+      background-position: center; } }
+  .evo-blog-header .evo-blog-header-content {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center; }
+    @media (max-width: 767px) {
+      .evo-blog-header .evo-blog-header-content {
+        height: 180px; } }
+    .evo-blog-header .evo-blog-header-content h1 {
+      font-size: 26px;
+      line-height: 28px;
+      margin: 0;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+      color: #1c1c1c; }
+
+.evo-blog-nav {
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .evo-blog-nav {
+      position: relative;
+      overflow: hidden; } }
+  .evo-blog-nav .nav-blog {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; }
+    .evo-blog-nav .nav-blog a {
+      padding: 20px 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      display: block;
+      font-size: 12px;
+      position: relative;
+      color: #1c1c1c;
+      min-width: 70px;
+      text-align: center;
+      -webkit-flex-shrink: 0;
+      -ms-flex: 0 0 auto;
+      flex-shrink: 0;
+      position: relative; }
+      .evo-blog-nav .nav-blog a + a {
+        border-left: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a:first-child {
+        border-left: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a:last-child {
+        border-right: 1px solid #f5f5f5; }
+      .evo-blog-nav .nav-blog a.active, .evo-blog-nav .nav-blog a:hover, .evo-blog-nav .nav-blog a:focus {
+        color: #916841; }
+        .evo-blog-nav .nav-blog a.active:after, .evo-blog-nav .nav-blog a:hover:after, .evo-blog-nav .nav-blog a:focus:after {
+          content: '';
+          width: 100%;
+          height: 1px;
+          background: #916841;
+          display: block;
+          position: absolute;
+          bottom: -1px;
+          left: 0; }
+
+.page-faq .faq-title {
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1c1c1c;
+  margin: 0;
+  margin-bottom: 25px; }
+  @media (max-width: 767px) {
+    .page-faq .faq-title {
+      font-size: 18px;
+      letter-spacing: 1.5px;
+      margin-bottom: 15px;
+      margin-top: 10px; } }
+
+.page-faq .product-fpt-with-stick-tab .panel-group .panel-default {
+  border-radius: 0;
+  border: 1px solid #ebebeb;
+  box-shadow: none; }
+  .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading {
+    border-color: #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 0;
+    padding: 0; }
+    .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading .panel-title a {
+      color: #1c1c1c;
+      letter-spacing: 1px;
+      font-weight: 500;
+      display: block;
+      padding: 10px; }
+      @media (max-width: 767px) {
+        .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading .panel-title a {
+          font-size: 14px; } }
+    .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading.active {
+      background-color: #1c1c1c; }
+      .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading.active a {
+        color: #fff; }
+    .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading:hover {
+      background-color: #916841; }
+      .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-heading:hover a {
+        color: #fff; }
+  .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-body {
+    border-top: none !important;
+    padding: 10px; }
+    .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-body p {
+      margin-bottom: 10px; }
+      .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-body p a {
+        font-weight: 500;
+        color: #916841; }
+        .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-body p a:hover, .page-faq .product-fpt-with-stick-tab .panel-group .panel-default .panel-body p a:focus {
+          color: #1c1c1c; }
+
+@media (max-width: 767px) {
+  .panel-group .panel + .panel {
+    margin-top: 10px; } }
